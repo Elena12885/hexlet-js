@@ -1,0 +1,55 @@
+2023-08-27 21:31:04.062 [info] Log level: Info
+2023-08-27 21:31:04.062 [info] Validating found git in: "git"
+2023-08-27 21:31:04.062 [info] Using git "2.34.1" from "git"
+2023-08-27 21:31:04.062 [info] > git rev-parse --show-toplevel [10ms]
+2023-08-27 21:31:04.062 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.062 [info] > git rev-parse --show-toplevel [6ms]
+2023-08-27 21:31:04.062 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.064 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-27 21:31:04.064 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-08-27 21:31:04.073 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-27 21:31:04.073 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.081 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 21:31:04.081 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.093 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 21:31:04.093 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.100 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 21:31:04.100 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.107 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 21:31:04.107 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.114 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 21:31:04.114 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-08-27 21:31:04.126 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 21:31:04.126 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-08-27 21:31:04.132 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-27 21:31:04.132 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.139 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-27 21:31:04.139 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.146 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-27 21:31:04.146 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-08-27 21:31:04.153 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 21:31:04.153 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.160 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-27 21:31:04.160 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:04.166 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-27 21:31:04.166 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:06.335 [info] > git rev-parse --show-toplevel [26ms]
+2023-08-27 21:31:06.335 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:31:08.273 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-27 21:31:08.273 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-27 21:33:41.792 [info] > git rev-parse --show-toplevel [4ms]
+2023-08-27 21:33:41.806 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-08-27 21:33:41.831 [info] Open repository: /home/lena_em/hexlet-git
+2023-08-27 21:33:41.848 [info] > git config --get commit.template [4ms]
+2023-08-27 21:33:41.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2023-08-27 21:33:41.886 [info] > git status -z -uall [6ms]
+2023-08-27 21:33:41.917 [info] > git config --get commit.template [4ms]
+2023-08-27 21:33:41.949 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-08-27 21:33:41.958 [info] > git status -z -uall [3ms]
+2023-08-27 21:33:42.465 [info] > git show --textconv :index.js [18ms]
+2023-08-27 21:33:42.466 [info] > git ls-files --stage -- /home/lena_em/hexlet-git/index.js [2ms]
+2023-08-27 21:33:42.560 [info] > git check-ignore -v -z --stdin [2ms]

@@ -1,0 +1,3 @@
+2023-08-27 21:30:56.630 [info] Started initializing default profile extensions in extensions installation folder. file:///home/lena_em/.vscode/extensions
+2023-08-27 21:30:57.140 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/lena_em/.vscode/extensions Unable to create file 'vscode-userdata:/home/lena_em/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-08-27 21:30:57.141 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/lena_em/.vscode/extensions
