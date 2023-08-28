@@ -1,0 +1,758 @@
+0 verbose cli /home/lena_em/.asdf/installs/nodejs/20.5.1/bin/node /home/lena_em/.asdf/installs/nodejs/20.5.1/bin/npm
+1 info using npm@9.8.0
+2 info using node@v20.5.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/home/lena_em/.asdf/installs/nodejs/20.5.1/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/lena_em/hexlet-js/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 5ms
+11 timing config:load:file:/home/lena_em/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/home/lena_em/.asdf/installs/nodejs/20.5.1/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 13ms
+17 timing npm:load:configload Completed in 13ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^2.25.2
+22 verbose argv "install" "--save-dev" "eslint-config-airbnb-base@latest" "eslint@^7.32.0 || ^8.2.0" "eslint-plugin-import@^2.25.2"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/home/lena_em/.npm/_logs/2023-08-28T11_51_09_160Z-
+26 verbose logfile /home/lena_em/.npm/_logs/2023-08-28T11_51_09_160Z-debug-0.log
+27 timing npm:load:logFile Completed in 10ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 46ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile start cleaning logs, removing 1 files
+33 timing idealTree:init Completed in 64ms
+34 silly logfile done cleaning log files
+35 timing arborist:ctor Completed in 0ms
+36 http fetch GET 200 https://registry.npmjs.org/eslint-config-airbnb-base 334ms (cache revalidated)
+37 timing idealTree:userRequests Completed in 339ms
+38 silly idealTree buildDeps
+39 silly fetch manifest eslint@^7.32.0 || ^8.2.0
+40 http fetch GET 200 https://registry.npmjs.org/eslint 120ms (cache revalidated)
+41 silly fetch manifest eslint-plugin-import@^2.25.2
+42 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-import 98ms (cache revalidated)
+43 silly fetch manifest eslint-config-airbnb-base@15.0.0
+44 silly placeDep ROOT eslint@8.48.0 REPLACE for: hexlet@1.0.0 want: ^7.32.0 || ^8.2.0
+45 silly placeDep ROOT eslint-config-airbnb-base@15.0.0 OK for: hexlet@1.0.0 want: 15.0.0
+46 silly placeDep ROOT eslint-plugin-import@2.28.1 OK for: eslint-config-airbnb-base@15.0.0 want: ^2.25.2
+47 silly fetch manifest confusing-browser-globals@^1.0.10
+48 silly fetch manifest object.assign@^4.1.2
+49 silly fetch manifest object.entries@^1.1.5
+50 silly fetch manifest semver@^6.3.0
+51 silly fetch manifest array-includes@^3.1.6
+52 silly fetch manifest array.prototype.findlastindex@^1.2.2
+53 silly fetch manifest array.prototype.flat@^1.3.1
+54 silly fetch manifest array.prototype.flatmap@^1.3.1
+55 silly fetch manifest debug@^3.2.7
+56 silly fetch manifest doctrine@^2.1.0
+57 silly fetch manifest eslint-import-resolver-node@^0.3.7
+58 silly fetch manifest eslint-module-utils@^2.8.0
+59 silly fetch manifest has@^1.0.3
+60 silly fetch manifest is-core-module@^2.13.0
+61 silly fetch manifest object.fromentries@^2.0.6
+62 silly fetch manifest object.groupby@^1.0.0
+63 silly fetch manifest object.values@^1.1.6
+64 silly fetch manifest semver@^6.3.1
+65 silly fetch manifest tsconfig-paths@^3.14.2
+66 silly placeDep ROOT eslint-plugin-import@2.28.1 REPLACE for: hexlet@1.0.0 want: ^2.25.2
+67 http fetch GET 200 https://registry.npmjs.org/array.prototype.flat 255ms (cache revalidated)
+68 http fetch GET 200 https://registry.npmjs.org/confusing-browser-globals 259ms (cache revalidated)
+69 http fetch GET 200 https://registry.npmjs.org/semver 259ms (cache revalidated)
+70 http fetch GET 200 https://registry.npmjs.org/object.entries 266ms (cache revalidated)
+71 http fetch GET 200 https://registry.npmjs.org/semver 260ms (cache revalidated)
+72 http fetch GET 200 https://registry.npmjs.org/array.prototype.flatmap 270ms (cache revalidated)
+73 http fetch GET 200 https://registry.npmjs.org/debug 272ms (cache revalidated)
+74 http fetch GET 200 https://registry.npmjs.org/array-includes 288ms (cache revalidated)
+75 http fetch GET 200 https://registry.npmjs.org/array.prototype.findlastindex 290ms (cache revalidated)
+76 http fetch GET 200 https://registry.npmjs.org/doctrine 293ms (cache revalidated)
+77 http fetch GET 200 https://registry.npmjs.org/object.fromentries 291ms (cache revalidated)
+78 http fetch GET 200 https://registry.npmjs.org/has 294ms (cache revalidated)
+79 http fetch GET 200 https://registry.npmjs.org/is-core-module 294ms (cache revalidated)
+80 http fetch GET 200 https://registry.npmjs.org/tsconfig-paths 311ms (cache revalidated)
+81 http fetch GET 200 https://registry.npmjs.org/object.values 317ms (cache revalidated)
+82 http fetch GET 200 https://registry.npmjs.org/object.groupby 349ms (cache revalidated)
+83 http fetch GET 200 https://registry.npmjs.org/object.assign 931ms (cache revalidated)
+84 http fetch GET 200 https://registry.npmjs.org/eslint-module-utils 1128ms (cache revalidated)
+85 http fetch GET 200 https://registry.npmjs.org/eslint-import-resolver-node 1147ms (cache revalidated)
+86 timing idealTree:#root Completed in 1407ms
+87 timing idealTree:node_modules/eslint Completed in 0ms
+88 silly placeDep ROOT confusing-browser-globals@1.0.11 OK for: eslint-config-airbnb-base@15.0.0 want: ^1.0.10
+89 silly placeDep ROOT object.assign@4.1.4 OK for: eslint-config-airbnb-base@15.0.0 want: ^4.1.2
+90 silly fetch manifest call-bind@^1.0.2
+91 silly fetch manifest define-properties@^1.1.4
+92 silly fetch manifest has-symbols@^1.0.3
+93 silly fetch manifest object-keys@^1.1.1
+94 silly placeDep ROOT object.entries@1.1.7 OK for: eslint-config-airbnb-base@15.0.0 want: ^1.1.5
+95 silly fetch manifest define-properties@^1.2.0
+96 silly fetch manifest es-abstract@^1.22.1
+97 silly placeDep ROOT semver@6.3.1 OK for: eslint-config-airbnb-base@15.0.0 want: ^6.3.0
+98 http fetch GET 200 https://registry.npmjs.org/define-properties 107ms (cache revalidated)
+99 http fetch GET 200 https://registry.npmjs.org/define-properties 103ms (cache revalidated)
+100 http fetch GET 200 https://registry.npmjs.org/call-bind 109ms (cache revalidated)
+101 http fetch GET 200 https://registry.npmjs.org/es-abstract 934ms (cache revalidated)
+102 http fetch GET 200 https://registry.npmjs.org/has-symbols 946ms (cache revalidated)
+103 http fetch GET 200 https://registry.npmjs.org/object-keys 956ms (cache revalidated)
+104 timing idealTree:node_modules/eslint-config-airbnb-base Completed in 965ms
+105 timing idealTree:node_modules/confusing-browser-globals Completed in 0ms
+106 silly placeDep ROOT array-includes@3.1.6 OK for: eslint-plugin-import@2.28.1 want: ^3.1.6
+107 silly fetch manifest es-abstract@^1.20.4
+108 silly fetch manifest get-intrinsic@^1.1.3
+109 silly fetch manifest is-string@^1.0.7
+110 silly placeDep ROOT array.prototype.findlastindex@1.2.2 OK for: eslint-plugin-import@2.28.1 want: ^1.2.2
+111 silly fetch manifest es-shim-unscopables@^1.0.0
+112 silly placeDep ROOT array.prototype.flat@1.3.1 OK for: eslint-plugin-import@2.28.1 want: ^1.3.1
+113 silly placeDep ROOT array.prototype.flatmap@1.3.1 OK for: eslint-plugin-import@2.28.1 want: ^1.3.1
+114 silly placeDep node_modules/eslint-plugin-import debug@3.2.7 OK for: eslint-plugin-import@2.28.1 want: ^3.2.7
+115 silly placeDep node_modules/eslint-plugin-import doctrine@2.1.0 OK for: eslint-plugin-import@2.28.1 want: ^2.1.0
+116 silly placeDep ROOT eslint-import-resolver-node@0.3.9 OK for: eslint-plugin-import@2.28.1 want: ^0.3.7
+117 silly fetch manifest resolve@^1.22.4
+118 silly placeDep ROOT eslint-module-utils@2.8.0 OK for: eslint-plugin-import@2.28.1 want: ^2.8.0
+119 silly placeDep ROOT has@1.0.3 OK for: eslint-plugin-import@2.28.1 want: ^1.0.3
+120 silly fetch manifest function-bind@^1.1.1
+121 silly placeDep ROOT is-core-module@2.13.0 OK for: eslint-plugin-import@2.28.1 want: ^2.13.0
+122 silly placeDep ROOT object.fromentries@2.0.6 OK for: eslint-plugin-import@2.28.1 want: ^2.0.6
+123 silly placeDep ROOT object.groupby@1.0.0 OK for: eslint-plugin-import@2.28.1 want: ^1.0.0
+124 silly fetch manifest es-abstract@^1.21.2
+125 silly fetch manifest get-intrinsic@^1.2.1
+126 silly placeDep ROOT object.values@1.1.7 OK for: eslint-plugin-import@2.28.1 want: ^1.1.6
+127 silly placeDep ROOT tsconfig-paths@3.14.2 OK for: eslint-plugin-import@2.28.1 want: ^3.14.2
+128 silly fetch manifest @types/json5@^0.0.29
+129 silly fetch manifest json5@^1.0.2
+130 silly fetch manifest minimist@^1.2.6
+131 silly fetch manifest strip-bom@^3.0.0
+132 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 128ms (cache revalidated)
+133 http fetch GET 200 https://registry.npmjs.org/resolve 124ms (cache revalidated)
+134 http fetch GET 200 https://registry.npmjs.org/function-bind 126ms (cache revalidated)
+135 http fetch GET 200 https://registry.npmjs.org/json5 122ms (cache revalidated)
+136 http fetch GET 200 https://registry.npmjs.org/minimist 147ms (cache revalidated)
+137 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 154ms (cache revalidated)
+138 http fetch GET 200 https://registry.npmjs.org/es-shim-unscopables 181ms (cache revalidated)
+139 http fetch GET 200 https://registry.npmjs.org/is-string 336ms (cache revalidated)
+140 http fetch GET 200 https://registry.npmjs.org/strip-bom 375ms (cache revalidated)
+141 http fetch GET 200 https://registry.npmjs.org/@types%2fjson5 1189ms (cache revalidated)
+142 timing idealTree:node_modules/eslint-plugin-import Completed in 1221ms
+143 silly placeDep ROOT call-bind@1.0.2 OK for: array-includes@3.1.6 want: ^1.0.2
+144 silly fetch manifest get-intrinsic@^1.0.2
+145 silly placeDep ROOT define-properties@1.2.0 OK for: array-includes@3.1.6 want: ^1.1.4
+146 silly fetch manifest has-property-descriptors@^1.0.0
+147 silly placeDep ROOT es-abstract@1.22.1 OK for: array-includes@3.1.6 want: ^1.20.4
+148 silly fetch manifest array-buffer-byte-length@^1.0.0
+149 silly fetch manifest arraybuffer.prototype.slice@^1.0.1
+150 silly fetch manifest available-typed-arrays@^1.0.5
+151 silly fetch manifest es-set-tostringtag@^2.0.1
+152 silly fetch manifest es-to-primitive@^1.2.1
+153 silly fetch manifest function.prototype.name@^1.1.5
+154 silly fetch manifest get-symbol-description@^1.0.0
+155 silly fetch manifest globalthis@^1.0.3
+156 silly fetch manifest gopd@^1.0.1
+157 silly fetch manifest has-proto@^1.0.1
+158 silly fetch manifest internal-slot@^1.0.5
+159 silly fetch manifest is-array-buffer@^3.0.2
+160 silly fetch manifest is-callable@^1.2.7
+161 silly fetch manifest is-negative-zero@^2.0.2
+162 silly fetch manifest is-regex@^1.1.4
+163 silly fetch manifest is-shared-array-buffer@^1.0.2
+164 silly fetch manifest is-typed-array@^1.1.10
+165 silly fetch manifest is-weakref@^1.0.2
+166 silly fetch manifest object-inspect@^1.12.3
+167 silly fetch manifest regexp.prototype.flags@^1.5.0
+168 silly fetch manifest safe-array-concat@^1.0.0
+169 silly fetch manifest safe-regex-test@^1.0.0
+170 silly fetch manifest string.prototype.trim@^1.2.7
+171 silly fetch manifest string.prototype.trimend@^1.0.6
+172 silly fetch manifest string.prototype.trimstart@^1.0.6
+173 silly fetch manifest typed-array-buffer@^1.0.0
+174 silly fetch manifest typed-array-byte-length@^1.0.0
+175 silly fetch manifest typed-array-byte-offset@^1.0.0
+176 silly fetch manifest typed-array-length@^1.0.4
+177 silly fetch manifest unbox-primitive@^1.0.2
+178 silly fetch manifest which-typed-array@^1.1.10
+179 silly placeDep ROOT get-intrinsic@1.2.1 OK for: array-includes@3.1.6 want: ^1.1.3
+180 silly placeDep ROOT is-string@1.0.7 OK for: array-includes@3.1.6 want: ^1.0.7
+181 silly fetch manifest has-tostringtag@^1.0.0
+182 http fetch GET 200 https://registry.npmjs.org/has-proto 184ms (cache revalidated)
+183 http fetch GET 200 https://registry.npmjs.org/has-property-descriptors 248ms (cache revalidated)
+184 http fetch GET 200 https://registry.npmjs.org/arraybuffer.prototype.slice 262ms (cache revalidated)
+185 http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag 276ms (cache revalidated)
+186 http fetch GET 200 https://registry.npmjs.org/is-regex 283ms (cache revalidated)
+187 http fetch GET 200 https://registry.npmjs.org/typed-array-length 341ms (cache revalidated)
+188 http fetch GET 200 https://registry.npmjs.org/gopd 396ms (cache revalidated)
+189 http fetch GET 200 https://registry.npmjs.org/array-buffer-byte-length 416ms (cache revalidated)
+190 http fetch GET 200 https://registry.npmjs.org/typed-array-byte-length 427ms (cache revalidated)
+191 http fetch GET 200 https://registry.npmjs.org/regexp.prototype.flags 441ms (cache revalidated)
+192 http fetch GET 200 https://registry.npmjs.org/es-to-primitive 465ms (cache revalidated)
+193 http fetch GET 200 https://registry.npmjs.org/is-typed-array 454ms (cache revalidated)
+194 http fetch GET 200 https://registry.npmjs.org/safe-array-concat 473ms (cache revalidated)
+195 http fetch GET 200 https://registry.npmjs.org/is-negative-zero 504ms (cache revalidated)
+196 http fetch GET 200 https://registry.npmjs.org/is-weakref 503ms (cache revalidated)
+197 http fetch GET 200 https://registry.npmjs.org/is-shared-array-buffer 509ms (cache revalidated)
+198 http fetch GET 200 https://registry.npmjs.org/safe-regex-test 511ms (cache revalidated)
+199 http fetch GET 200 https://registry.npmjs.org/typed-array-buffer 536ms (cache revalidated)
+200 http fetch GET 200 https://registry.npmjs.org/typed-array-byte-offset 609ms (cache revalidated)
+201 http fetch GET 200 https://registry.npmjs.org/object-inspect 750ms (cache revalidated)
+202 http fetch GET 200 https://registry.npmjs.org/function.prototype.name 788ms (cache revalidated)
+203 http fetch GET 200 https://registry.npmjs.org/unbox-primitive 905ms (cache revalidated)
+204 http fetch GET 200 https://registry.npmjs.org/is-array-buffer 1018ms (cache revalidated)
+205 http fetch GET 200 https://registry.npmjs.org/is-callable 1075ms (cache revalidated)
+206 http fetch GET 200 https://registry.npmjs.org/available-typed-arrays 1098ms (cache revalidated)
+207 http fetch GET 200 https://registry.npmjs.org/internal-slot 1113ms (cache revalidated)
+208 http fetch GET 200 https://registry.npmjs.org/string.prototype.trimend 1182ms (cache revalidated)
+209 http fetch GET 200 https://registry.npmjs.org/string.prototype.trim 1189ms (cache revalidated)
+210 http fetch GET 200 https://registry.npmjs.org/string.prototype.trimstart 1275ms (cache revalidated)
+211 http fetch GET 200 https://registry.npmjs.org/has-tostringtag 1349ms (cache revalidated)
+212 http fetch GET 200 https://registry.npmjs.org/get-symbol-description 1445ms (cache revalidated)
+213 http fetch GET 200 https://registry.npmjs.org/which-typed-array 1435ms (cache revalidated)
+214 http fetch GET 200 https://registry.npmjs.org/globalthis 1462ms (cache revalidated)
+215 timing idealTree:node_modules/array-includes Completed in 1484ms
+216 silly placeDep ROOT es-shim-unscopables@1.0.0 OK for: array.prototype.findlastindex@1.2.2 want: ^1.0.0
+217 timing idealTree:node_modules/array.prototype.findlastindex Completed in 2ms
+218 timing idealTree:node_modules/array.prototype.flat Completed in 0ms
+219 timing idealTree:node_modules/array.prototype.flatmap Completed in 0ms
+220 silly placeDep ROOT function-bind@1.1.1 OK for: call-bind@1.0.2 want: ^1.1.1
+221 timing idealTree:node_modules/call-bind Completed in 2ms
+222 silly placeDep ROOT has-property-descriptors@1.0.0 OK for: define-properties@1.2.0 want: ^1.0.0
+223 silly placeDep ROOT object-keys@1.1.1 OK for: define-properties@1.2.0 want: ^1.1.1
+224 timing idealTree:node_modules/define-properties Completed in 2ms
+225 silly placeDep ROOT array-buffer-byte-length@1.0.0 OK for: es-abstract@1.22.1 want: ^1.0.0
+226 silly fetch manifest is-array-buffer@^3.0.1
+227 silly placeDep ROOT arraybuffer.prototype.slice@1.0.1 OK for: es-abstract@1.22.1 want: ^1.0.1
+228 silly placeDep ROOT available-typed-arrays@1.0.5 OK for: es-abstract@1.22.1 want: ^1.0.5
+229 silly placeDep ROOT es-set-tostringtag@2.0.1 OK for: es-abstract@1.22.1 want: ^2.0.1
+230 silly placeDep ROOT es-to-primitive@1.2.1 OK for: es-abstract@1.22.1 want: ^1.2.1
+231 silly fetch manifest is-callable@^1.1.4
+232 silly fetch manifest is-date-object@^1.0.1
+233 silly fetch manifest is-symbol@^1.0.2
+234 silly placeDep ROOT function.prototype.name@1.1.5 OK for: es-abstract@1.22.1 want: ^1.1.5
+235 silly fetch manifest functions-have-names@^1.2.2
+236 silly placeDep ROOT get-symbol-description@1.0.0 OK for: es-abstract@1.22.1 want: ^1.0.0
+237 silly placeDep ROOT globalthis@1.0.3 OK for: es-abstract@1.22.1 want: ^1.0.3
+238 silly placeDep ROOT gopd@1.0.1 OK for: es-abstract@1.22.1 want: ^1.0.1
+239 silly placeDep ROOT has-proto@1.0.1 OK for: es-abstract@1.22.1 want: ^1.0.1
+240 silly placeDep ROOT has-symbols@1.0.3 OK for: es-abstract@1.22.1 want: ^1.0.3
+241 silly placeDep ROOT internal-slot@1.0.5 OK for: es-abstract@1.22.1 want: ^1.0.5
+242 silly fetch manifest side-channel@^1.0.4
+243 silly placeDep ROOT is-array-buffer@3.0.2 OK for: es-abstract@1.22.1 want: ^3.0.2
+244 silly placeDep ROOT is-callable@1.2.7 OK for: es-abstract@1.22.1 want: ^1.2.7
+245 silly placeDep ROOT is-negative-zero@2.0.2 OK for: es-abstract@1.22.1 want: ^2.0.2
+246 silly placeDep ROOT is-regex@1.1.4 OK for: es-abstract@1.22.1 want: ^1.1.4
+247 silly placeDep ROOT is-shared-array-buffer@1.0.2 OK for: es-abstract@1.22.1 want: ^1.0.2
+248 silly placeDep ROOT is-typed-array@1.1.12 OK for: es-abstract@1.22.1 want: ^1.1.10
+249 silly fetch manifest which-typed-array@^1.1.11
+250 silly placeDep ROOT is-weakref@1.0.2 OK for: es-abstract@1.22.1 want: ^1.0.2
+251 silly placeDep ROOT object-inspect@1.12.3 OK for: es-abstract@1.22.1 want: ^1.12.3
+252 silly placeDep ROOT regexp.prototype.flags@1.5.0 OK for: es-abstract@1.22.1 want: ^1.5.0
+253 silly fetch manifest functions-have-names@^1.2.3
+254 silly placeDep ROOT safe-array-concat@1.0.0 OK for: es-abstract@1.22.1 want: ^1.0.0
+255 silly fetch manifest isarray@^2.0.5
+256 silly placeDep ROOT safe-regex-test@1.0.0 OK for: es-abstract@1.22.1 want: ^1.0.0
+257 silly placeDep ROOT string.prototype.trim@1.2.7 OK for: es-abstract@1.22.1 want: ^1.2.7
+258 silly placeDep ROOT string.prototype.trimend@1.0.6 OK for: es-abstract@1.22.1 want: ^1.0.6
+259 silly placeDep ROOT string.prototype.trimstart@1.0.6 OK for: es-abstract@1.22.1 want: ^1.0.6
+260 silly placeDep ROOT typed-array-buffer@1.0.0 OK for: es-abstract@1.22.1 want: ^1.0.0
+261 silly placeDep ROOT typed-array-byte-length@1.0.0 OK for: es-abstract@1.22.1 want: ^1.0.0
+262 silly fetch manifest for-each@^0.3.3
+263 silly placeDep ROOT typed-array-byte-offset@1.0.0 OK for: es-abstract@1.22.1 want: ^1.0.0
+264 silly placeDep ROOT typed-array-length@1.0.4 OK for: es-abstract@1.22.1 want: ^1.0.4
+265 silly placeDep ROOT unbox-primitive@1.0.2 OK for: es-abstract@1.22.1 want: ^1.0.2
+266 silly fetch manifest has-bigints@^1.0.2
+267 silly fetch manifest which-boxed-primitive@^1.0.2
+268 silly placeDep ROOT which-typed-array@1.1.11 OK for: es-abstract@1.22.1 want: ^1.1.10
+269 http fetch GET 200 https://registry.npmjs.org/is-date-object 163ms (cache revalidated)
+270 http fetch GET 200 https://registry.npmjs.org/functions-have-names 162ms (cache revalidated)
+271 http fetch GET 200 https://registry.npmjs.org/side-channel 168ms (cache revalidated)
+272 http fetch GET 200 https://registry.npmjs.org/functions-have-names 165ms (cache revalidated)
+273 http fetch GET 200 https://registry.npmjs.org/isarray 191ms (cache revalidated)
+274 http fetch GET 200 https://registry.npmjs.org/for-each 370ms (cache revalidated)
+275 http fetch GET 200 https://registry.npmjs.org/which-boxed-primitive 414ms (cache revalidated)
+276 http fetch GET 200 https://registry.npmjs.org/is-symbol 660ms (cache revalidated)
+277 http fetch GET 200 https://registry.npmjs.org/has-bigints 968ms (cache revalidated)
+278 timing idealTree:node_modules/es-abstract Completed in 1025ms
+279 timing idealTree:node_modules/array-buffer-byte-length Completed in 0ms
+280 timing idealTree:node_modules/arraybuffer.prototype.slice Completed in 0ms
+281 timing idealTree:node_modules/available-typed-arrays Completed in 0ms
+282 silly placeDep ROOT has-tostringtag@1.0.0 OK for: es-set-tostringtag@2.0.1 want: ^1.0.0
+283 timing idealTree:node_modules/es-set-tostringtag Completed in 1ms
+284 timing idealTree:node_modules/es-shim-unscopables Completed in 0ms
+285 silly placeDep ROOT is-date-object@1.0.5 OK for: es-to-primitive@1.2.1 want: ^1.0.1
+286 silly placeDep ROOT is-symbol@1.0.4 OK for: es-to-primitive@1.2.1 want: ^1.0.2
+287 timing idealTree:node_modules/es-to-primitive Completed in 2ms
+288 silly placeDep node_modules/eslint-import-resolver-node debug@3.2.7 OK for: eslint-import-resolver-node@0.3.9 want: ^3.2.7
+289 silly placeDep ROOT resolve@1.22.4 OK for: eslint-import-resolver-node@0.3.9 want: ^1.22.4
+290 silly fetch manifest path-parse@^1.0.7
+291 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+292 http fetch GET 200 https://registry.npmjs.org/path-parse 108ms (cache revalidated)
+293 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag 342ms (cache revalidated)
+294 timing idealTree:node_modules/eslint-import-resolver-node Completed in 346ms
+295 silly placeDep node_modules/eslint-module-utils debug@3.2.7 OK for: eslint-module-utils@2.8.0 want: ^3.2.7
+296 timing idealTree:node_modules/eslint-module-utils Completed in 2ms
+297 timing idealTree:node_modules/function-bind Completed in 0ms
+298 silly placeDep ROOT functions-have-names@1.2.3 OK for: function.prototype.name@1.1.5 want: ^1.2.2
+299 timing idealTree:node_modules/function.prototype.name Completed in 1ms
+300 timing idealTree:node_modules/functions-have-names Completed in 0ms
+301 timing idealTree:node_modules/get-intrinsic Completed in 0ms
+302 timing idealTree:node_modules/get-symbol-description Completed in 0ms
+303 timing idealTree:node_modules/globalthis Completed in 0ms
+304 timing idealTree:node_modules/gopd Completed in 0ms
+305 timing idealTree:node_modules/has Completed in 0ms
+306 timing idealTree:node_modules/has-property-descriptors Completed in 0ms
+307 timing idealTree:node_modules/has-proto Completed in 0ms
+308 timing idealTree:node_modules/has-symbols Completed in 0ms
+309 timing idealTree:node_modules/has-tostringtag Completed in 0ms
+310 silly placeDep ROOT side-channel@1.0.4 OK for: internal-slot@1.0.5 want: ^1.0.4
+311 timing idealTree:node_modules/internal-slot Completed in 2ms
+312 timing idealTree:node_modules/is-array-buffer Completed in 0ms
+313 timing idealTree:node_modules/is-callable Completed in 0ms
+314 timing idealTree:node_modules/is-core-module Completed in 0ms
+315 timing idealTree:node_modules/is-date-object Completed in 0ms
+316 timing idealTree:node_modules/is-negative-zero Completed in 0ms
+317 timing idealTree:node_modules/is-regex Completed in 0ms
+318 timing idealTree:node_modules/is-shared-array-buffer Completed in 0ms
+319 timing idealTree:node_modules/is-string Completed in 0ms
+320 timing idealTree:node_modules/is-symbol Completed in 0ms
+321 timing idealTree:node_modules/is-typed-array Completed in 0ms
+322 timing idealTree:node_modules/is-weakref Completed in 0ms
+323 timing idealTree:node_modules/object-inspect Completed in 0ms
+324 timing idealTree:node_modules/object-keys Completed in 0ms
+325 timing idealTree:node_modules/object.assign Completed in 0ms
+326 timing idealTree:node_modules/object.entries Completed in 0ms
+327 timing idealTree:node_modules/object.fromentries Completed in 0ms
+328 timing idealTree:node_modules/object.groupby Completed in 1ms
+329 timing idealTree:node_modules/object.values Completed in 0ms
+330 timing idealTree:node_modules/regexp.prototype.flags Completed in 0ms
+331 silly placeDep ROOT path-parse@1.0.7 OK for: resolve@1.22.4 want: ^1.0.7
+332 silly placeDep ROOT supports-preserve-symlinks-flag@1.0.0 OK for: resolve@1.22.4 want: ^1.0.0
+333 timing idealTree:node_modules/resolve Completed in 2ms
+334 timing idealTree:node_modules/path-parse Completed in 0ms
+335 silly placeDep ROOT isarray@2.0.5 OK for: safe-array-concat@1.0.0 want: ^2.0.5
+336 timing idealTree:node_modules/safe-array-concat Completed in 1ms
+337 timing idealTree:node_modules/isarray Completed in 0ms
+338 timing idealTree:node_modules/safe-regex-test Completed in 0ms
+339 timing idealTree:node_modules/semver Completed in 0ms
+340 timing idealTree:node_modules/side-channel Completed in 0ms
+341 timing idealTree:node_modules/string.prototype.trim Completed in 0ms
+342 timing idealTree:node_modules/string.prototype.trimend Completed in 1ms
+343 timing idealTree:node_modules/string.prototype.trimstart Completed in 0ms
+344 timing idealTree:node_modules/supports-preserve-symlinks-flag Completed in 0ms
+345 silly placeDep ROOT @types/json5@0.0.29 OK for: tsconfig-paths@3.14.2 want: ^0.0.29
+346 silly placeDep ROOT json5@1.0.2 OK for: tsconfig-paths@3.14.2 want: ^1.0.2
+347 silly fetch manifest minimist@^1.2.0
+348 silly placeDep ROOT minimist@1.2.8 OK for: tsconfig-paths@3.14.2 want: ^1.2.6
+349 silly placeDep ROOT strip-bom@3.0.0 OK for: tsconfig-paths@3.14.2 want: ^3.0.0
+350 timing idealTree:node_modules/tsconfig-paths Completed in 4ms
+351 timing idealTree:node_modules/@types/json5 Completed in 0ms
+352 timing idealTree:node_modules/json5 Completed in 0ms
+353 timing idealTree:node_modules/minimist Completed in 0ms
+354 timing idealTree:node_modules/strip-bom Completed in 0ms
+355 timing idealTree:node_modules/typed-array-buffer Completed in 0ms
+356 silly placeDep ROOT for-each@0.3.3 OK for: typed-array-byte-length@1.0.0 want: ^0.3.3
+357 timing idealTree:node_modules/typed-array-byte-length Completed in 1ms
+358 timing idealTree:node_modules/for-each Completed in 0ms
+359 timing idealTree:node_modules/typed-array-byte-offset Completed in 0ms
+360 timing idealTree:node_modules/typed-array-length Completed in 0ms
+361 silly placeDep ROOT has-bigints@1.0.2 OK for: unbox-primitive@1.0.2 want: ^1.0.2
+362 silly placeDep ROOT which-boxed-primitive@1.0.2 OK for: unbox-primitive@1.0.2 want: ^1.0.2
+363 silly fetch manifest is-bigint@^1.0.1
+364 silly fetch manifest is-boolean-object@^1.1.0
+365 silly fetch manifest is-number-object@^1.0.4
+366 http fetch GET 200 https://registry.npmjs.org/is-boolean-object 417ms (cache revalidated)
+367 http fetch GET 200 https://registry.npmjs.org/is-bigint 461ms (cache revalidated)
+368 http fetch GET 200 https://registry.npmjs.org/is-number-object 580ms (cache revalidated)
+369 timing idealTree:node_modules/unbox-primitive Completed in 586ms
+370 timing idealTree:node_modules/has-bigints Completed in 0ms
+371 silly placeDep ROOT is-bigint@1.0.4 OK for: which-boxed-primitive@1.0.2 want: ^1.0.1
+372 silly placeDep ROOT is-boolean-object@1.1.2 OK for: which-boxed-primitive@1.0.2 want: ^1.1.0
+373 silly placeDep ROOT is-number-object@1.0.7 OK for: which-boxed-primitive@1.0.2 want: ^1.0.4
+374 timing idealTree:node_modules/which-boxed-primitive Completed in 4ms
+375 timing idealTree:node_modules/is-bigint Completed in 0ms
+376 timing idealTree:node_modules/is-boolean-object Completed in 0ms
+377 timing idealTree:node_modules/is-number-object Completed in 0ms
+378 timing idealTree:node_modules/which-typed-array Completed in 0ms
+379 timing idealTree:node_modules/eslint-import-resolver-node/node_modules/debug Completed in 0ms
+380 timing idealTree:node_modules/eslint-module-utils/node_modules/debug Completed in 0ms
+381 timing idealTree:node_modules/eslint-plugin-import/node_modules/debug Completed in 0ms
+382 timing idealTree:node_modules/eslint-plugin-import/node_modules/doctrine Completed in 0ms
+383 timing idealTree:buildDeps Completed in 7072ms
+384 timing idealTree:fixDepFlags Completed in 1ms
+385 timing idealTree Completed in 7482ms
+386 timing reify:loadTrees Completed in 7482ms
+387 timing reify:diffTrees Completed in 5ms
+388 silly reify moves {}
+389 timing reify:retireShallow Completed in 1ms
+390 timing reify:createSparse Completed in 15ms
+391 timing reify:loadBundles Completed in 0ms
+392 silly audit bulk request {
+392 silly audit   '@aashutoshrathi/word-wrap': [ '1.2.6' ],
+392 silly audit   '@eslint-community/eslint-utils': [ '4.4.0' ],
+392 silly audit   '@eslint-community/regexpp': [ '4.8.0' ],
+392 silly audit   '@eslint/eslintrc': [ '2.1.2' ],
+392 silly audit   '@eslint/js': [ '8.48.0' ],
+392 silly audit   '@humanwhocodes/config-array': [ '0.11.10' ],
+392 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+392 silly audit   '@humanwhocodes/object-schema': [ '1.2.1' ],
+392 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+392 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+392 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+392 silly audit   acorn: [ '8.10.0' ],
+392 silly audit   'acorn-jsx': [ '5.3.2' ],
+392 silly audit   ajv: [ '6.12.6' ],
+392 silly audit   'ansi-regex': [ '5.0.1' ],
+392 silly audit   'ansi-styles': [ '4.3.0' ],
+392 silly audit   argparse: [ '2.0.1' ],
+392 silly audit   'balanced-match': [ '1.0.2' ],
+392 silly audit   'brace-expansion': [ '1.1.11' ],
+392 silly audit   callsites: [ '3.1.0' ],
+392 silly audit   chalk: [ '4.1.2' ],
+392 silly audit   'color-convert': [ '2.0.1' ],
+392 silly audit   'color-name': [ '1.1.4' ],
+392 silly audit   'concat-map': [ '0.0.1' ],
+392 silly audit   'cross-spawn': [ '7.0.3' ],
+392 silly audit   debug: [ '4.3.4', '3.2.7' ],
+392 silly audit   'deep-is': [ '0.1.4' ],
+392 silly audit   doctrine: [ '3.0.0', '2.1.0' ],
+392 silly audit   'escape-string-regexp': [ '4.0.0' ],
+392 silly audit   'eslint-scope': [ '7.2.2' ],
+392 silly audit   'eslint-visitor-keys': [ '3.4.3' ],
+392 silly audit   espree: [ '9.6.1' ],
+392 silly audit   esquery: [ '1.5.0' ],
+392 silly audit   esrecurse: [ '4.3.0' ],
+392 silly audit   estraverse: [ '5.3.0' ],
+392 silly audit   esutils: [ '2.0.3' ],
+392 silly audit   'fast-deep-equal': [ '3.1.3' ],
+392 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+392 silly audit   'fast-levenshtein': [ '2.0.6' ],
+392 silly audit   fastq: [ '1.15.0' ],
+392 silly audit   'file-entry-cache': [ '6.0.1' ],
+392 silly audit   'find-up': [ '5.0.0' ],
+392 silly audit   'flat-cache': [ '3.1.0' ],
+392 silly audit   flatted: [ '3.2.7' ],
+392 silly audit   'fs.realpath': [ '1.0.0' ],
+392 silly audit   glob: [ '7.2.3' ],
+392 silly audit   'glob-parent': [ '6.0.2' ],
+392 silly audit   globals: [ '13.21.0' ],
+392 silly audit   graphemer: [ '1.4.0' ],
+392 silly audit   'has-flag': [ '4.0.0' ],
+392 silly audit   ignore: [ '5.2.4' ],
+392 silly audit   'import-fresh': [ '3.3.0' ],
+392 silly audit   imurmurhash: [ '0.1.4' ],
+392 silly audit   inflight: [ '1.0.6' ],
+392 silly audit   inherits: [ '2.0.4' ],
+392 silly audit   'is-extglob': [ '2.1.1' ],
+392 silly audit   'is-glob': [ '4.0.3' ],
+392 silly audit   'is-path-inside': [ '3.0.3' ],
+392 silly audit   isexe: [ '2.0.0' ],
+392 silly audit   'js-yaml': [ '4.1.0' ],
+392 silly audit   'json-buffer': [ '3.0.1' ],
+392 silly audit   'json-schema-traverse': [ '0.4.1' ],
+392 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+392 silly audit   keyv: [ '4.5.3' ],
+392 silly audit   levn: [ '0.4.1' ],
+392 silly audit   'locate-path': [ '6.0.0' ],
+392 silly audit   lodash: [ '4.17.21' ],
+392 silly audit   'lodash.merge': [ '4.6.2' ],
+392 silly audit   minimatch: [ '3.1.2' ],
+392 silly audit   ms: [ '2.1.2' ],
+392 silly audit   'natural-compare': [ '1.4.0' ],
+392 silly audit   once: [ '1.4.0' ],
+392 silly audit   optionator: [ '0.9.3' ],
+392 silly audit   'p-limit': [ '3.1.0' ],
+392 silly audit   'p-locate': [ '5.0.0' ],
+392 silly audit   'parent-module': [ '1.0.1' ],
+392 silly audit   'path-exists': [ '4.0.0' ],
+392 silly audit   'path-is-absolute': [ '1.0.1' ],
+392 silly audit   'path-key': [ '3.1.1' ],
+392 silly audit   'prelude-ls': [ '1.2.1' ],
+392 silly audit   prettier: [ '3.0.2' ],
+392 silly audit   punycode: [ '2.3.0' ],
+392 silly audit   'queue-microtask': [ '1.2.3' ],
+392 silly audit   'resolve-from': [ '4.0.0' ],
+392 silly audit   reusify: [ '1.0.4' ],
+392 silly audit   rimraf: [ '3.0.2' ],
+392 silly audit   'run-parallel': [ '1.2.0' ],
+392 silly audit   'shebang-command': [ '2.0.0' ],
+392 silly audit   'shebang-regex': [ '3.0.0' ],
+392 silly audit   'strip-ansi': [ '6.0.1' ],
+392 silly audit   'strip-json-comments': [ '3.1.1' ],
+392 silly audit   'supports-color': [ '7.2.0' ],
+392 silly audit   'text-table': [ '0.2.0' ],
+392 silly audit   'type-check': [ '0.4.0' ],
+392 silly audit   'type-fest': [ '0.20.2' ],
+392 silly audit   'uri-js': [ '4.4.1' ],
+392 silly audit   which: [ '2.0.2' ],
+392 silly audit   wrappy: [ '1.0.2' ],
+392 silly audit   'yocto-queue': [ '0.1.0' ],
+392 silly audit   eslint: [ '8.48.0' ],
+392 silly audit   'eslint-config-airbnb-base': [ '15.0.0' ],
+392 silly audit   'eslint-plugin-import': [ '2.28.1' ],
+392 silly audit   'confusing-browser-globals': [ '1.0.11' ],
+392 silly audit   'object.assign': [ '4.1.4' ],
+392 silly audit   'object.entries': [ '1.1.7' ],
+392 silly audit   semver: [ '6.3.1' ],
+392 silly audit   'array-includes': [ '3.1.6' ],
+392 silly audit   'array.prototype.findlastindex': [ '1.2.2' ],
+392 silly audit   'array.prototype.flat': [ '1.3.1' ],
+392 silly audit   'array.prototype.flatmap': [ '1.3.1' ],
+392 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+392 silly audit   'eslint-module-utils': [ '2.8.0' ],
+392 silly audit   has: [ '1.0.3' ],
+392 silly audit   'is-core-module': [ '2.13.0' ],
+392 silly audit   'object.fromentries': [ '2.0.6' ],
+392 silly audit   'object.groupby': [ '1.0.0' ],
+392 silly audit   'object.values': [ '1.1.7' ],
+392 silly audit   'tsconfig-paths': [ '3.14.2' ],
+392 silly audit   'call-bind': [ '1.0.2' ],
+392 silly audit   'define-properties': [ '1.2.0' ],
+392 silly audit   'es-abstract': [ '1.22.1' ],
+392 silly audit   'get-intrinsic': [ '1.2.1' ],
+392 silly audit   'is-string': [ '1.0.7' ],
+392 silly audit   'es-shim-unscopables': [ '1.0.0' ],
+392 silly audit   'function-bind': [ '1.1.1' ],
+392 silly audit   'has-property-descriptors': [ '1.0.0' ],
+392 silly audit   'object-keys': [ '1.1.1' ],
+392 silly audit   'array-buffer-byte-length': [ '1.0.0' ],
+392 silly audit   'arraybuffer.prototype.slice': [ '1.0.1' ],
+392 silly audit   'available-typed-arrays': [ '1.0.5' ],
+392 silly audit   'es-set-tostringtag': [ '2.0.1' ],
+392 silly audit   'es-to-primitive': [ '1.2.1' ],
+392 silly audit   'function.prototype.name': [ '1.1.5' ],
+392 silly audit   'get-symbol-description': [ '1.0.0' ],
+392 silly audit   globalthis: [ '1.0.3' ],
+392 silly audit   gopd: [ '1.0.1' ],
+392 silly audit   'has-proto': [ '1.0.1' ],
+392 silly audit   'has-symbols': [ '1.0.3' ],
+392 silly audit   'internal-slot': [ '1.0.5' ],
+392 silly audit   'is-array-buffer': [ '3.0.2' ],
+392 silly audit   'is-callable': [ '1.2.7' ],
+392 silly audit   'is-negative-zero': [ '2.0.2' ],
+392 silly audit   'is-regex': [ '1.1.4' ],
+392 silly audit   'is-shared-array-buffer': [ '1.0.2' ],
+392 silly audit   'is-typed-array': [ '1.1.12' ],
+392 silly audit   'is-weakref': [ '1.0.2' ],
+392 silly audit   'object-inspect': [ '1.12.3' ],
+392 silly audit   'regexp.prototype.flags': [ '1.5.0' ],
+392 silly audit   'safe-array-concat': [ '1.0.0' ],
+392 silly audit   'safe-regex-test': [ '1.0.0' ],
+392 silly audit   'string.prototype.trim': [ '1.2.7' ],
+392 silly audit   'string.prototype.trimend': [ '1.0.6' ],
+392 silly audit   'string.prototype.trimstart': [ '1.0.6' ],
+392 silly audit   'typed-array-buffer': [ '1.0.0' ],
+392 silly audit   'typed-array-byte-length': [ '1.0.0' ],
+392 silly audit   'typed-array-byte-offset': [ '1.0.0' ],
+392 silly audit   'typed-array-length': [ '1.0.4' ],
+392 silly audit   'unbox-primitive': [ '1.0.2' ],
+392 silly audit   'which-typed-array': [ '1.1.11' ],
+392 silly audit   'has-tostringtag': [ '1.0.0' ],
+392 silly audit   'is-date-object': [ '1.0.5' ],
+392 silly audit   'is-symbol': [ '1.0.4' ],
+392 silly audit   resolve: [ '1.22.4' ],
+392 silly audit   'functions-have-names': [ '1.2.3' ],
+392 silly audit   'side-channel': [ '1.0.4' ],
+392 silly audit   'path-parse': [ '1.0.7' ],
+392 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+392 silly audit   isarray: [ '2.0.5' ],
+392 silly audit   '@types/json5': [ '0.0.29' ],
+392 silly audit   json5: [ '1.0.2' ],
+392 silly audit   minimist: [ '1.2.8' ],
+392 silly audit   'strip-bom': [ '3.0.0' ],
+392 silly audit   'for-each': [ '0.3.3' ],
+392 silly audit   'has-bigints': [ '1.0.2' ],
+392 silly audit   'which-boxed-primitive': [ '1.0.2' ],
+392 silly audit   'is-bigint': [ '1.0.4' ],
+392 silly audit   'is-boolean-object': [ '1.1.2' ],
+392 silly audit   'is-number-object': [ '1.0.7' ]
+392 silly audit }
+393 timing reifyNode:node_modules/strip-bom Completed in 282ms
+394 timing reifyNode:node_modules/@types/json5 Completed in 282ms
+395 timing reifyNode:node_modules/isarray Completed in 282ms
+396 timing reifyNode:node_modules/path-parse Completed in 282ms
+397 timing reifyNode:node_modules/eslint-import-resolver-node Completed in 284ms
+398 timing reifyNode:node_modules/confusing-browser-globals Completed in 284ms
+399 timing reifyNode:node_modules/has Completed in 307ms
+400 timing reifyNode:node_modules/es-set-tostringtag Completed in 312ms
+401 timing reifyNode:node_modules/safe-regex-test Completed in 326ms
+402 timing reifyNode:node_modules/has-proto Completed in 326ms
+403 timing reifyNode:node_modules/gopd Completed in 327ms
+404 timing reifyNode:node_modules/for-each Completed in 333ms
+405 timing reifyNode:node_modules/has-bigints Completed in 333ms
+406 timing reifyNode:node_modules/typed-array-buffer Completed in 332ms
+407 timing reifyNode:node_modules/array-buffer-byte-length Completed in 333ms
+408 timing reifyNode:node_modules/has-property-descriptors Completed in 333ms
+409 timing reifyNode:node_modules/supports-preserve-symlinks-flag Completed in 339ms
+410 timing reifyNode:node_modules/is-weakref Completed in 340ms
+411 timing reifyNode:node_modules/define-properties Completed in 341ms
+412 timing reifyNode:node_modules/semver Completed in 341ms
+413 timing reifyNode:node_modules/typed-array-length Completed in 346ms
+414 timing reifyNode:node_modules/typed-array-byte-length Completed in 346ms
+415 timing reifyNode:node_modules/typed-array-byte-offset Completed in 346ms
+416 timing reifyNode:node_modules/is-regex Completed in 347ms
+417 timing reifyNode:node_modules/safe-array-concat Completed in 347ms
+418 timing reifyNode:node_modules/is-array-buffer Completed in 347ms
+419 timing reifyNode:node_modules/eslint-import-resolver-node/node_modules/debug Completed in 346ms
+420 timing reifyNode:node_modules/eslint-module-utils/node_modules/debug Completed in 348ms
+421 timing reifyNode:node_modules/eslint-plugin-import/node_modules/debug Completed in 347ms
+422 timing reifyNode:node_modules/is-number-object Completed in 353ms
+423 timing reifyNode:node_modules/is-bigint Completed in 352ms
+424 timing reifyNode:node_modules/side-channel Completed in 352ms
+425 timing reifyNode:node_modules/functions-have-names Completed in 352ms
+426 timing reifyNode:node_modules/unbox-primitive Completed in 352ms
+427 timing reifyNode:node_modules/which-typed-array Completed in 352ms
+428 timing reifyNode:node_modules/is-shared-array-buffer Completed in 352ms
+429 timing reifyNode:node_modules/is-typed-array Completed in 353ms
+430 timing reifyNode:node_modules/available-typed-arrays Completed in 353ms
+431 timing reifyNode:node_modules/es-shim-unscopables Completed in 352ms
+432 timing reifyNode:node_modules/function-bind Completed in 352ms
+433 timing reifyNode:node_modules/is-string Completed in 352ms
+434 timing reifyNode:node_modules/is-core-module Completed in 353ms
+435 timing reifyNode:node_modules/which-boxed-primitive Completed in 358ms
+436 timing reifyNode:node_modules/is-boolean-object Completed in 358ms
+437 timing reifyNode:node_modules/is-symbol Completed in 357ms
+438 timing reifyNode:node_modules/is-date-object Completed in 357ms
+439 timing reifyNode:node_modules/is-negative-zero Completed in 357ms
+440 timing reifyNode:node_modules/internal-slot Completed in 356ms
+441 timing reifyNode:node_modules/get-symbol-description Completed in 357ms
+442 timing reifyNode:node_modules/get-intrinsic Completed in 357ms
+443 timing reifyNode:node_modules/is-callable Completed in 361ms
+444 timing reifyNode:node_modules/object-keys Completed in 360ms
+445 timing reifyNode:node_modules/call-bind Completed in 360ms
+446 timing reifyNode:node_modules/has-tostringtag Completed in 364ms
+447 timing reifyNode:node_modules/arraybuffer.prototype.slice Completed in 363ms
+448 timing reifyNode:node_modules/object.fromentries Completed in 362ms
+449 timing reifyNode:node_modules/string.prototype.trimstart Completed in 365ms
+450 timing reifyNode:node_modules/string.prototype.trimend Completed in 366ms
+451 timing reifyNode:node_modules/globalthis Completed in 365ms
+452 timing reifyNode:node_modules/json5 Completed in 368ms
+453 timing reifyNode:node_modules/array.prototype.flat Completed in 367ms
+454 timing reifyNode:node_modules/array-includes Completed in 367ms
+455 timing reifyNode:node_modules/eslint-plugin-import/node_modules/doctrine Completed in 367ms
+456 timing reifyNode:node_modules/has-symbols Completed in 370ms
+457 timing reifyNode:node_modules/object.values Completed in 370ms
+458 timing reifyNode:node_modules/object.entries Completed in 369ms
+459 timing reifyNode:node_modules/string.prototype.trim Completed in 373ms
+460 timing reifyNode:node_modules/array.prototype.flatmap Completed in 370ms
+461 timing reifyNode:node_modules/regexp.prototype.flags Completed in 374ms
+462 timing reifyNode:node_modules/eslint-module-utils Completed in 372ms
+463 timing reifyNode:node_modules/array.prototype.findlastindex Completed in 372ms
+464 timing reifyNode:node_modules/es-to-primitive Completed in 375ms
+465 timing reifyNode:node_modules/function.prototype.name Completed in 376ms
+466 timing reifyNode:node_modules/object.groupby Completed in 378ms
+467 timing reifyNode:node_modules/minimist Completed in 385ms
+468 timing reifyNode:node_modules/eslint-config-airbnb-base Completed in 381ms
+469 timing reifyNode:node_modules/object-inspect Completed in 390ms
+470 timing reifyNode:node_modules/object.assign Completed in 410ms
+471 timing reifyNode:node_modules/tsconfig-paths Completed in 411ms
+472 timing reifyNode:node_modules/eslint-plugin-import Completed in 457ms
+473 timing reifyNode:node_modules/resolve Completed in 468ms
+474 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 652ms
+475 timing auditReport:getReport Completed in 658ms
+476 silly audit report {}
+477 timing auditReport:init Completed in 0ms
+478 timing reify:audit Completed in 658ms
+479 timing reifyNode:node_modules/es-abstract Completed in 745ms
+480 timing reify:unpack Completed in 750ms
+481 timing reify:unretire Completed in 1ms
+482 timing build:queue Completed in 2ms
+483 timing build:link:node_modules/json5 Completed in 2ms
+484 timing build:link:node_modules/resolve Completed in 2ms
+485 timing build:link:node_modules/semver Completed in 2ms
+486 timing build:link Completed in 2ms
+487 timing build:deps Completed in 5ms
+488 timing build Completed in 6ms
+489 timing reify:build Completed in 7ms
+490 timing reify:trash Completed in 0ms
+491 timing reify:save Completed in 51ms
+492 timing reify Completed in 8360ms
+493 silly ADD node_modules/is-number-object
+494 silly ADD node_modules/is-boolean-object
+495 silly ADD node_modules/is-bigint
+496 silly ADD node_modules/which-boxed-primitive
+497 silly ADD node_modules/has-bigints
+498 silly ADD node_modules/for-each
+499 silly ADD node_modules/strip-bom
+500 silly ADD node_modules/minimist
+501 silly ADD node_modules/json5
+502 silly ADD node_modules/@types/json5
+503 silly ADD node_modules/isarray
+504 silly ADD node_modules/supports-preserve-symlinks-flag
+505 silly ADD node_modules/path-parse
+506 silly ADD node_modules/side-channel
+507 silly ADD node_modules/functions-have-names
+508 silly ADD node_modules/resolve
+509 silly ADD node_modules/is-symbol
+510 silly ADD node_modules/is-date-object
+511 silly ADD node_modules/has-tostringtag
+512 silly ADD node_modules/which-typed-array
+513 silly ADD node_modules/unbox-primitive
+514 silly ADD node_modules/typed-array-length
+515 silly ADD node_modules/typed-array-byte-offset
+516 silly ADD node_modules/typed-array-byte-length
+517 silly ADD node_modules/typed-array-buffer
+518 silly ADD node_modules/string.prototype.trimstart
+519 silly ADD node_modules/string.prototype.trimend
+520 silly ADD node_modules/string.prototype.trim
+521 silly ADD node_modules/safe-regex-test
+522 silly ADD node_modules/safe-array-concat
+523 silly ADD node_modules/regexp.prototype.flags
+524 silly ADD node_modules/object-inspect
+525 silly ADD node_modules/is-weakref
+526 silly ADD node_modules/is-typed-array
+527 silly ADD node_modules/is-shared-array-buffer
+528 silly ADD node_modules/is-regex
+529 silly ADD node_modules/is-negative-zero
+530 silly ADD node_modules/is-callable
+531 silly ADD node_modules/is-array-buffer
+532 silly ADD node_modules/internal-slot
+533 silly ADD node_modules/has-symbols
+534 silly ADD node_modules/has-proto
+535 silly ADD node_modules/gopd
+536 silly ADD node_modules/globalthis
+537 silly ADD node_modules/get-symbol-description
+538 silly ADD node_modules/function.prototype.name
+539 silly ADD node_modules/es-to-primitive
+540 silly ADD node_modules/es-set-tostringtag
+541 silly ADD node_modules/available-typed-arrays
+542 silly ADD node_modules/arraybuffer.prototype.slice
+543 silly ADD node_modules/array-buffer-byte-length
+544 silly ADD node_modules/object-keys
+545 silly ADD node_modules/has-property-descriptors
+546 silly ADD node_modules/function-bind
+547 silly ADD node_modules/es-shim-unscopables
+548 silly ADD node_modules/is-string
+549 silly ADD node_modules/get-intrinsic
+550 silly ADD node_modules/es-abstract
+551 silly ADD node_modules/define-properties
+552 silly ADD node_modules/call-bind
+553 silly ADD node_modules/tsconfig-paths
+554 silly ADD node_modules/object.values
+555 silly ADD node_modules/object.groupby
+556 silly ADD node_modules/object.fromentries
+557 silly ADD node_modules/is-core-module
+558 silly ADD node_modules/has
+559 silly ADD node_modules/eslint-module-utils
+560 silly ADD node_modules/eslint-module-utils/node_modules/debug
+561 silly ADD node_modules/eslint-import-resolver-node
+562 silly ADD node_modules/eslint-import-resolver-node/node_modules/debug
+563 silly ADD node_modules/array.prototype.flatmap
+564 silly ADD node_modules/array.prototype.flat
+565 silly ADD node_modules/array.prototype.findlastindex
+566 silly ADD node_modules/array-includes
+567 silly ADD node_modules/semver
+568 silly ADD node_modules/object.entries
+569 silly ADD node_modules/object.assign
+570 silly ADD node_modules/confusing-browser-globals
+571 silly ADD node_modules/eslint-plugin-import
+572 silly ADD node_modules/eslint-plugin-import/node_modules/doctrine
+573 silly ADD node_modules/eslint-plugin-import/node_modules/debug
+574 silly ADD node_modules/eslint-config-airbnb-base
+575 timing command:install Completed in 8371ms
+576 verbose exit 0
+577 timing npm Completed in 8572ms
+578 info ok
