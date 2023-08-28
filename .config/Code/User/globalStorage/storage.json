@@ -1233,9 +1233,8 @@
                 "userSettingsLabel": "ctrl+shift+s"
             },
             "workbench.action.openSettings": {
-                "label": "Ctrl+Shift+.",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+shift+[Slash]"
+                "label": "Ctrl+,",
+                "userSettingsLabel": "ctrl+,"
             },
             "workbench.view.extensions": {
                 "label": "Ctrl+Shift+X",
@@ -1305,9 +1304,8 @@
                 "userSettingsLabel": "ctrl+shift+h"
             },
             "editor.action.commentLine": {
-                "label": "Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+shift+[Backslash]"
+                "label": "Ctrl+/",
+                "userSettingsLabel": "ctrl+/"
             },
             "editor.action.blockComment": {
                 "label": "Ctrl+Shift+A",
@@ -1406,12 +1404,12 @@
             "workbench.action.splitEditorUp": {
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+[Backslash]"
+                "userSettingsLabel": "ctrl+k ctrl+\\"
             },
             "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+/",
+                "label": "Ctrl+K Ctrl+Shift+\\",
                 "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+[IntlBackslash]"
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1445,6 +1443,10 @@
             "workbench.debug.action.toggleRepl": {
                 "label": "Ctrl+Shift+Y",
                 "userSettingsLabel": "ctrl+shift+y"
+            },
+            "workbench.action.terminal.toggleTerminal": {
+                "label": "Ctrl+`",
+                "userSettingsLabel": "ctrl+`"
             },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
@@ -1550,9 +1552,8 @@
                 "userSettingsLabel": "ctrl+g"
             },
             "editor.action.jumpToBracket": {
-                "label": "Ctrl+Shift+/",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+shift+[IntlBackslash]"
+                "label": "Ctrl+Shift+\\",
+                "userSettingsLabel": "ctrl+shift+\\"
             },
             "editor.action.marker.nextInFiles": {
                 "label": "F8",
@@ -1610,6 +1611,10 @@
                 "label": "Shift+F9",
                 "userSettingsLabel": "shift+f9"
             },
+            "workbench.action.terminal.new": {
+                "label": "Ctrl+Shift+`",
+                "userSettingsLabel": "ctrl+shift+`"
+            },
             "workbench.action.terminal.split": {
                 "label": "Ctrl+Shift+5",
                 "userSettingsLabel": "ctrl+shift+5"
@@ -1655,8 +1660,8 @@
             "backupPath": "/home/lena_em/.config/Code/Backups/38fbae270873c9870ceeac14d50ef89e",
             "uiState": {
                 "mode": 1,
-                "x": 26,
-                "y": 83,
+                "x": -7,
+                "y": 59,
                 "width": 826,
                 "height": 1035
             }

@@ -1,0 +1,5 @@
+2023-08-28 15:00:27.401 [info] update#setState idle
+2023-08-28 15:00:57.406 [info] update#setState checking for updates
+2023-08-28 15:00:57.524 [info] update#setState idle
+2023-08-28 15:02:13.042 [info] Extension host with pid 8626 exited with code: 0, signal: unknown.
+2023-08-28 15:02:13.094 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 8625]: crashed with code 15 and reason 'killed'
