@@ -3,7 +3,8 @@
     "profileAssociations": {
         "workspaces": {
             "file:///": "__default__profile__",
-            "file:///home/lena_em/hexlet-git": "__default__profile__"
+            "file:///home/lena_em/hexlet-git": "__default__profile__",
+            "file:///home/lena_em/hexlet-js": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -13,7 +14,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/lena_em/hexlet-git"
+                "folderUri": "file:///home/lena_em/hexlet-js"
             }
         ],
         "emptyWindows": []
@@ -61,6 +62,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/lena_em/hexlet-js",
+                                        "path": "/home/lena_em/hexlet-js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/hexlet-js"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -140,13 +152,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -726,7 +731,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1227,8 +1233,9 @@
                 "userSettingsLabel": "ctrl+shift+s"
             },
             "workbench.action.openSettings": {
-                "label": "Ctrl+,",
-                "userSettingsLabel": "ctrl+,"
+                "label": "Ctrl+Shift+.",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+[Slash]"
             },
             "workbench.view.extensions": {
                 "label": "Ctrl+Shift+X",
@@ -1298,8 +1305,9 @@
                 "userSettingsLabel": "ctrl+shift+h"
             },
             "editor.action.commentLine": {
-                "label": "Ctrl+/",
-                "userSettingsLabel": "ctrl+/"
+                "label": "Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+[Backslash]"
             },
             "editor.action.blockComment": {
                 "label": "Ctrl+Shift+A",
@@ -1398,12 +1406,12 @@
             "workbench.action.splitEditorUp": {
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+\\"
+                "userSettingsLabel": "ctrl+k ctrl+[Backslash]"
             },
             "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
+                "label": "Ctrl+K Ctrl+Shift+/",
                 "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+                "userSettingsLabel": "ctrl+k ctrl+shift+[IntlBackslash]"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1437,10 +1445,6 @@
             "workbench.debug.action.toggleRepl": {
                 "label": "Ctrl+Shift+Y",
                 "userSettingsLabel": "ctrl+shift+y"
-            },
-            "workbench.action.terminal.toggleTerminal": {
-                "label": "Ctrl+`",
-                "userSettingsLabel": "ctrl+`"
             },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
@@ -1546,8 +1550,9 @@
                 "userSettingsLabel": "ctrl+g"
             },
             "editor.action.jumpToBracket": {
-                "label": "Ctrl+Shift+\\",
-                "userSettingsLabel": "ctrl+shift+\\"
+                "label": "Ctrl+Shift+/",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+[IntlBackslash]"
             },
             "editor.action.marker.nextInFiles": {
                 "label": "F8",
@@ -1605,10 +1610,6 @@
                 "label": "Shift+F9",
                 "userSettingsLabel": "shift+f9"
             },
-            "workbench.action.terminal.new": {
-                "label": "Ctrl+Shift+`",
-                "userSettingsLabel": "ctrl+shift+`"
-            },
             "workbench.action.terminal.split": {
                 "label": "Ctrl+Shift+5",
                 "userSettingsLabel": "ctrl+shift+5"
@@ -1650,12 +1651,12 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/lena_em/hexlet-git",
-            "backupPath": "/home/lena_em/.config/Code/Backups/2e67f0b37b69c201d0192ac17ee28c51",
+            "folder": "file:///home/lena_em/hexlet-js",
+            "backupPath": "/home/lena_em/.config/Code/Backups/38fbae270873c9870ceeac14d50ef89e",
             "uiState": {
                 "mode": 1,
-                "x": 20,
-                "y": 56,
+                "x": 26,
+                "y": 83,
                 "width": 826,
                 "height": 1035
             }
