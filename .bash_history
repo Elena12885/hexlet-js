@@ -330,3 +330,156 @@ sudo tar -xJvf node-v18.15.0-linux-x64.tar.xz -C /usr/local/lib/nodejs
 cd ..
 sudo tar -xJvf node-v18.15.0-linux-x64.tar.xz -C /usr/local/lib/nodejs
 node -v
+sudo tar -xJvf node-v18.17.1-linux-x64.tar.xz -C /usr/local/lib/nodejs
+cd /usr/local/lib/nodejs
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git clear
+clear
+cd ../..
+../..
+..
+cd ../..
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&sudo apt-get install -y nodejs
+node -v
+clear
+sudo apt update
+sudo apt install curl
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&h
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node -v
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf install nodejs latest
+echo 'export PATH=$PATH:/usr/local/lib/nodejs/node-v18.15.0-linux-x64/bin' >> $HOME/.profile
+source $HOME/.profile
+node -v
+echo 'export PATH=$PATH:/usr/local/lib/nodejs/node-v20.5.1-linux-x64/bin' >> $HOME/.profile
+source $HOME/.profile
+node -v
+cd bin
+ls -la
+ls -al
+clear
+cd ..
+node -v
+asdf list
+npm -v
+asdf current
+asdf global nodejs 20.5.1
+asdf current
+node -v
+node --version
+node
+code .
+sudo snap install code
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
+code .
+cd /home/lena_em
+ls
+cd home
+ls
+cd lena_em
+ls
+cs ..
+cd ..
+cd hexlet-git
+ls
+cd lena_em
+ls
+test
+ls
+cd ../..
+ls
+cd README.md
+cd hexlet-git
+ls
+cd ..
+ls
+mkdir hexlet-js
+ls 
+mv README.md hexlet-js
+ls
+hexlet-js
+mv index.js hexlet-js
+cd hexlet-js
+mv index.js hexlet-js
+ls
+cd ..
+cd hexlet-git
+mv index.js hexlet-js
+cd hexlet-js
+cd ..
+cd hexlet-js
+ls
+add.
+git add.
+git add .
+git status
+git commit -m 'fix README.md'
+clear
+node index.js
+ls
+cd ..
+ls
+hexlet-git
+cd hexlet-git
+ls
+rm hexlet-js
+ls
+code .
+cd ..
+cd hexlet-js
+node index.js
+node 
+git status
+git add README.md
+git add .
+git status
+git add.
+add index.js
+git commit -m 'addd index.js'
+add.
+add .
+git status
+git add .
+git status
+git add .
+git status
+cd ../..
+git add .
+git add.
+ls
+cd lena_em
+ls
+git add.
+git add .
+git status
+git add.
+git add .
+git commit -m '1'
+git push
+git push 
+git push
+git status
+git add.
+cd hexlet-git
+git add.
+git add hexlet-git
+cd ..
+git add hexlet-git
+git status
+git add.
+git add .
+git status
+git commit -m 'fix hexlet-git'
+git status
+git add hexlet-git
+git status
+clear
+node index.js
+ls
+cd hexlet-js
+node index.js
